@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-dark bg-primary mb-5"
+>
+  <div
+    className="container"
+  >
+    <NavLink
+      activeClassName="active"
+      ariaCurrent="true"
+      className="navbar-brand"
+      to="/"
+    >
+      Expenses Tracker
+    </NavLink>
+    <button
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-target="#navbarCollapse"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarCollapse"
+    >
+      <ul
+        className="navbar-nav mr-auto ml-3"
+      >
+        <li
+          className="nav-item"
+        >
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            className="nav-link"
+            exact={true}
+            to="/"
+          >
+            Home
+          </NavLink>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            className="nav-link"
+            to="/create"
+          >
+            Add Expense
+          </NavLink>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            className="nav-link"
+            to="/help"
+          >
+            Help
+          </NavLink>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

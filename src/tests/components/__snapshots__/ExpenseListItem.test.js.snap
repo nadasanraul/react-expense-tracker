@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render an expense 1`] = `
+<div
+  className="card border-primary mb-3"
+>
+  <div
+    className="card-body"
+  >
+    <h2
+      className="card-title"
+    >
+      gum
+    </h2>
+    <p
+      className="card-text"
+    >
+      Amount:
+      195
+       
+    </p>
+    <p
+      className="card-text"
+    >
+      On: 
+      1st Jan, 1970
+    </p>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+    <Link
+      className="btn btn-info"
+      replace={false}
+      to="edit/1"
+    >
+      Edit
+    </Link>
+  </div>
+</div>
+`;
