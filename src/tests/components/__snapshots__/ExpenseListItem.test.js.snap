@@ -16,7 +16,7 @@ exports[`should render an expense 1`] = `
       className="card-text"
     >
       Amount:
-      195
+      $1.95
        
     </p>
     <p
@@ -32,7 +32,7 @@ exports[`should render an expense 1`] = `
       Remove
     </button>
     <Link
-      className="btn btn-info"
+      className="btn btn-info float-right"
       replace={false}
       to="edit/1"
     >
