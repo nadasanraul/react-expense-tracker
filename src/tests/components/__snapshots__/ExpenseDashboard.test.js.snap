@@ -5,6 +5,7 @@ exports[`should render ExpenseDashboard 1`] = `
   className="container"
 >
   <Connect(ExpenseListFilters) />
+  <Connect(ExpensesSummary) />
   <Connect(ExpenseList) />
 </div>
 `;

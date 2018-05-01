@@ -1,0 +1,5 @@
+
+export default (expenses = []) =>
+     expenses.map(expense => 
+        expense.amount
+    ).reduce((acc, cur) => acc + cur, 0);

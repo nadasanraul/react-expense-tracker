@@ -28,7 +28,7 @@ export class ExpenseListFilters extends React.Component {
 
     render(){
         return (
-            <div className="row">
+            <div className="row mb-4">
                 <div className="col-md-6">
                     <div className="form-group">
                         <input className="form-control" type="text" value={this.props.filters.text} onChange={this.onTextChange}/>

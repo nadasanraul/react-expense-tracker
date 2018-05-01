@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesSummary correctly with 1 item 1`] = `
+<div
+  className="alert alert-dismissible alert-info"
+>
+  <strong>
+    There is 
+    1
+     expense, with a total of 
+    $1,090.05
+  </strong>
+</div>
+`;
+
+exports[`should render ExpensesSummary correctly with multiple or 0 items 1`] = `
+<div
+  className="alert alert-dismissible alert-info"
+>
+  <strong>
+    There are 
+    3
+     expenses, with a total of 
+    $1,137.00
+  </strong>
+</div>
+`;

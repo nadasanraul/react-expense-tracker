@@ -2,7 +2,7 @@
 
 exports[`should render ExpenseListFilters correctly 1`] = `
 <div
-  className="row"
+  className="row mb-4"
 >
   <div
     className="col-md-6"
@@ -145,7 +145,7 @@ exports[`should render ExpenseListFilters correctly 1`] = `
 
 exports[`should render ExpenseListFilters with alt data correctly 1`] = `
 <div
-  className="row"
+  className="row mb-4"
 >
   <div
     className="col-md-6"

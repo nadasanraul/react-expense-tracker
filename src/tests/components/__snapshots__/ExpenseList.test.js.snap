@@ -2,9 +2,11 @@
 
 exports[`should render ExpenseList with empty array 1`] = `
 <div>
-  <p>
+  <h2
+    className="text-center"
+  >
     No expenses
-  </p>
+  </h2>
 </div>
 `;
 
