@@ -1,4 +1,5 @@
 import expensesReducer from '../../reducers/expenses';
+import expenses from '../fixtures/testExpenses';
 
 const defaultState = [
     {
@@ -96,4 +97,13 @@ test('should not edit expense if expense not found', () => {
             createdAt: 0
         }
     ]);
+});
+
+test('should set expenses', () => {
+    const action = {
+        type: 'SET_EXPENSES',
+        expenses
+    };
+    const state = expensesReducer(defaultState, action);
+    expect(state).toEqual(expenses);
 });
