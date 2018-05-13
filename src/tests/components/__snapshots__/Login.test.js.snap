@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Login page correctly 1`] = `
+<div
+  className="container mb-5"
+>
+  <button
+    className="btn btn-primary d-flex justify-content-center"
+    onClick={[Function]}
+    type="submit"
+  >
+    Login
+  </button>
+</div>
+`;

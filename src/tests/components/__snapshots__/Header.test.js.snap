@@ -74,6 +74,12 @@ exports[`should render Header correctly 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="btn btn-info float-right"
+      onClick={[Function]}
+    >
+      Logout
+    </button>
   </div>
 </nav>
 `;
