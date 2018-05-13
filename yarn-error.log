@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test -- --watcg
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Raul\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Skype\Phone;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\Raul\AppData\Local\Microsoft\WindowsApps;C:\Users\Raul\AppData\Local\.meteor;C:\Users\Raul\AppData\Roaming\npm;C:\Users\Raul\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin;C:\xampp\mysql\bin;C:\Users\Raul\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin
@@ -41,6 +41,7 @@ npm manifest:
       "express": "4.15.4",
       "extract-text-webpack-plugin": "3.0.0",
       "firebase": "4.2.0",
+      "history": "4.7.2",
       "moment": "2.18.1",
       "node-sass": "4.5.3",
       "normalize.css": "7.0.0",
@@ -2984,7 +2985,7 @@ Lockfile:
       hoek "4.x.x"
       sntp "2.x.x"
   
-  history@^4.7.2:
+  history@4.7.2, history@^4.7.2:
     version "4.7.2"
     resolved "https://registry.yarnpkg.com/history/-/history-4.7.2.tgz#22b5c7f31633c5b8021c7f4a8a954ac139ee8d5b"
     dependencies:
@@ -6825,7 +6826,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c cross-env NODE_ENV=test jest --config=jest.config.json
+  Arguments: /d /s /c cross-env NODE_ENV=test jest --config=jest.config.json --watcg
   Directory: C:\Users\Raul\Projects\react-expenses
   Output:
   
