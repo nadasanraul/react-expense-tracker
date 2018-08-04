@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import  {startLogin} from '../actions/auth';
 
 export const Login = ({startLogin}) => (
-    <div className="container mb-5">
+    <div className="w-100 h-100">
         <button onClick={startLogin} className="btn btn-primary d-flex justify-content-center" type="submit">Login</button>
     </div>
 );

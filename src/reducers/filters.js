@@ -13,13 +13,13 @@ const filtersReducerDefaultState = {
 export default (state = filtersReducerDefaultState, action) => {
     switch (action.type){
         case 'SET_TEXT_FILTER':
-            return {...state, text: action.text};
+            return {...state, text: action.payload.text};
         case 'SORT_BY':
-            return  {...state, sortBy: action.sortBy}
+            return  {...state, sortBy: action.payload.sortBy}
         case 'SET_START_DATE':
-            return {...state, startDate: action.startDate}
+            return {...state, startDate: action.payload.startDate}
         case 'SET_END_DATE':
-            return {...state, endDate: action.endDate}
+            return {...state, endDate: action.payload.endDate}
         default:
             return state;
     }
